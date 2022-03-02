@@ -1,0 +1,33 @@
+<img src="gblogo.png" alt="Gymmboxx"style="width:1250px;height:250px;">
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #663399;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #F5FFFA;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #9370DB;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #4B0082;
+  color: white;
+}
